@@ -1,5 +1,5 @@
 # mybatis-demo
-spring5 联系项目 请自行引入lib下相关jar
+mybatis 构建项目过程中所需引入starters请见如下配置
 
 ```properties
 ide IDEA

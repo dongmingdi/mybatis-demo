@@ -3,7 +3,7 @@ package com.dongmingdi.springboot.mapper;
 import com.dongmingdi.springboot.entity.Department;
 import org.apache.ibatis.annotations.*;
 
-//@Mapper
+@Mapper
 public interface DepartmentMapper {
 
     @Select("select * from department where id=#{id}")
